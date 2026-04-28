@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { getArticleById, toggleLike, toggleBookmark } from "../api/api";
 import { FaHeart, FaBookmark, FaComment, FaEye } from "react-icons/fa";
 import CommentSection from "../components/CommentSection";
-import { formatDate } from "../utils/date";
+import { formatDate } from "../utils/formatDate.js";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import AISummary from "../components/AISummary";

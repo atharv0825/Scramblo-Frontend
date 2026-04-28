@@ -7,7 +7,7 @@ import ArticleCard from "../components/ArticleCard";
 import { generateGradient } from "../utils/gradient";
 import { useNavigate } from "react-router-dom";
 import { FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
-import { formatDate } from "../utils/date";
+import { formatDate } from "../utils/formatDate";
 import { FaPen } from "react-icons/fa";
 import UserArticleCard from "../components/UserArticleCard";
 import { useToast } from "../hooks/useToast.jsx";

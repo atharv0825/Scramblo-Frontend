@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { formatDate } from "../utils/date";
+import { formatDate } from "../utils/formatDate";
 
 function TrendingCard({ article, index }) {
   const navigate = useNavigate();

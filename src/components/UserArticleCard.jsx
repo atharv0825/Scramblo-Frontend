@@ -1,6 +1,6 @@
 import { FaRegBookmark, FaShareAlt, FaTrash } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import { formatDate } from "../utils/date";
+import { formatDate } from "../utils/formatDate";
 import { deleteArticle } from "../api/api";
 import { useAuth } from "../context/AuthContext";
 
