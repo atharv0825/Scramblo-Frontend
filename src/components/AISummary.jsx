@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { BsStars } from "react-icons/bs";
-import { generateGradient } from "../Utils/gradient";
+import { generateGradient } from "../utils/gradient.js";
 import { useToast } from "../hooks/useToast.jsx"; 
 
 function AISummary({ article }) {
