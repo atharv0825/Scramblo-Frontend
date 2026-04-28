@@ -16,7 +16,7 @@ function RightSidebar() {
           {topics.map((topic, index) => (
             <button
               key={index}
-              onClick={() => navigate(`/search?q=${topic}`)} // ✅ NAVIGATION
+              onClick={() => navigate(`/search?q=${topic}`)} 
               className="bg-blue-600 hover:bg-blue-700 transition text-white px-2 py-1 rounded-full text-xs text-center cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-400"
             >
               {topic}

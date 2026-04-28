@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ArticleCard from "../components/ArticleCard";
-import RightSidebar from "../components/RightSidebar";
+import RightSidebar from "../components/RightSidebar.jsx";
 import { getRecentArticles } from "../api/api";
 import { useToast } from "../hooks/useToast.jsx";
 import ScrambloLoader from "../components/ScrambloLoader";
