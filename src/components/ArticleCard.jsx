@@ -1,6 +1,6 @@
 import { FaBookmark, FaRegBookmark, FaShareAlt } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import { formatDate } from "../utils/formatDate.js";
+import { formatDate } from "../utils/formatDate";
 import { useToast } from "../hooks/useToast.jsx";
 import { toggleBookmark } from "../api/api";
 import { useAuth } from "../context/AuthContext";
